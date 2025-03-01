@@ -7,7 +7,7 @@ Tools and techniques for debugging WordPress.
 ## Incoming HTTP requests
 
 Dump POST request body to the error log.
-Copy [this snippet][debug-post-requests] to wp-config.
+Copy [this MU plugin][debug-post-requests] to `wp-content/muplugins/`.
 Follow error log: `tail -f error_log`
 
 ## HTTP response headers
@@ -31,8 +31,8 @@ View page source in your browser.
 
 ## PHP code
 
-Dump hooks (actions and filters) fired to a file.
-Copy [this snippet][debug-hooks] to `wp-includes/plugin.php`.
+Dump triggered hooks (actions and filters) to a file.
+Copy [this MU plugin][debug-hooks] to `wp-content/mu-plugins/`.
 Follow the log: `tail -f wp-content/debug-hooks.log`
 
 ## PHP errors
