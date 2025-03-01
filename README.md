@@ -1,7 +1,8 @@
 # Debug WordPress
 
-Tools and techniques for debugging WordPress.
+[![theories](https://img.shields.io/badge/more-theories-purple)](https://github.com/stars/szepeviktor/lists/theory)
 
+Tools and techniques for debugging WordPress.
 
 ## Incoming HTTP requests
 
@@ -60,6 +61,14 @@ Log queries before they are executed, see `EXPLAIN` statement.
 ## Emails
 
 Log sent emails.
+
+## Support my work
+
+Please consider supporting my work as these lists take years to compile.
+
+[![Sponsor](https://github.com/szepeviktor/.github/raw/master/.github/assets/github-like-sponsor-button.svg)](https://github.com/sponsors/szepeviktor)
+
+Thank you!
 
 [debug-post-requests]: https://github.com/szepeviktor/wordpress-website-lifecycle/blob/master/debug/debug-post-requests.php
 [debug-hooks]: https://github.com/szepeviktor/wordpress-website-lifecycle/blob/master/debug/debug-hooks.php
