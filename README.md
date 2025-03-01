@@ -70,5 +70,10 @@ Please consider supporting my work as these lists take years to compile.
 
 Thank you!
 
+## General debug tools
+
+- `query-monitor` plugin
+- `airplane-mode` plugin
+
 [debug-post-requests]: https://github.com/szepeviktor/wordpress-website-lifecycle/blob/master/debug/debug-post-requests.php
 [debug-hooks]: https://github.com/szepeviktor/wordpress-website-lifecycle/blob/master/debug/debug-hooks.php
