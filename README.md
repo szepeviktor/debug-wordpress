@@ -41,7 +41,7 @@ Follow PHP error log: `tail -f error_log`
 
 ## Outgoing HTTP requests
 
-Log requests.
+Log requests and responses.
 
 ### Tools
 
@@ -52,21 +52,22 @@ Log requests.
 
 Cron can be web-based and CLI-based.
 
-Log events.
+Log events and failures.
 
 ## Database queries
 
 Log queries before they are executed, see `EXPLAIN` statement.
+Log failed queries.
 
 ## Emails
 
-Log sent emails.
+Log sent emails and sending failures.
 
 ## Support my work
 
 Please consider supporting my work as these lists take years to compile.
 
-[![Sponsor](https://github.com/szepeviktor/.github/raw/master/.github/assets/github-like-sponsor-button.svg)](https://github.com/sponsors/szepeviktor)
+[![Sponsor][sponsor-button]][sponsors-page]
 
 Thank you!
 
@@ -77,3 +78,5 @@ Thank you!
 
 [debug-post-requests]: https://github.com/szepeviktor/wordpress-website-lifecycle/blob/master/debug/debug-post-requests.php
 [debug-hooks]: https://github.com/szepeviktor/wordpress-website-lifecycle/blob/master/debug/debug-hooks.php
+[sponsor-button]: https://github.com/szepeviktor/.github/raw/master/.github/assets/github-like-sponsor-button.svg
+[sponsors-page]: https://github.com/sponsors/szepeviktor
