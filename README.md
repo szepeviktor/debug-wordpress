@@ -59,6 +59,11 @@ Log events and failures.
 Log queries before they are executed, see `EXPLAIN` statement.
 Log failed queries.
 
+### Tools
+
+- `index-wp-mysql-for-speed` plugin
+- [Database Performance tuning][db-performance]
+
 ## Emails
 
 Log sent emails and sending failures.
@@ -80,3 +85,4 @@ Thank you!
 [debug-hooks]: https://github.com/szepeviktor/wordpress-website-lifecycle/blob/master/debug/debug-hooks.php
 [sponsor-button]: https://github.com/szepeviktor/.github/raw/master/.github/assets/github-like-sponsor-button.svg
 [sponsors-page]: https://github.com/sponsors/szepeviktor
+[db-performance]: https://github.com/szepeviktor/debian-server-tools/blob/master/mysql/SQL-Performance.md
