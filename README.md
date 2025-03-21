@@ -39,7 +39,7 @@ Follow the log: `tail -f wp-content/debug-hooks.log`
 
 Follow PHP error log: `tail -f error_log`
 
-## Outgoing HTTP requests
+## Outbound HTTP requests
 
 Log requests and responses.
 
@@ -79,7 +79,11 @@ Thank you!
 ## General debug tools
 
 - `query-monitor` plugin
+- [Test Mode](https://github.com/szepeviktor/test-mode) plugin
 - `airplane-mode` plugin
+- `whats-running` plugin
+- `frontend-debugger` plugin
+- https://themecheck.info/
 
 [debug-post-requests]: https://github.com/szepeviktor/wordpress-website-lifecycle/blob/master/debug/debug-post-requests.php
 [debug-hooks]: https://github.com/szepeviktor/wordpress-website-lifecycle/blob/master/debug/debug-hooks.php
