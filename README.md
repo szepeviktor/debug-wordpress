@@ -57,6 +57,9 @@ Log events and failures.
 ## Database queries
 
 Log queries before they are executed, see `EXPLAIN` statement.  
+Copy [this snippet][debug-queries] to `wp-includes/class-wpdb.php`.  
+Follow the log: `tail -f wp-content/debug-queries.log`
+
 Log failed queries.
 
 ### Tools
@@ -87,6 +90,7 @@ Thank you!
 
 [debug-post-requests]: https://github.com/szepeviktor/wordpress-website-lifecycle/blob/master/debug/debug-post-requests.php
 [debug-hooks]: https://github.com/szepeviktor/wordpress-website-lifecycle/blob/master/debug/debug-hooks.php
+[debug-queries]: https://github.com/szepeviktor/wordpress-website-lifecycle/blob/master/debug/debug-queries.php
 [sponsor-button]: https://github.com/szepeviktor/.github/raw/master/.github/assets/github-like-sponsor-button.svg
 [sponsors-page]: https://github.com/sponsors/szepeviktor
 [db-performance]: https://github.com/szepeviktor/debian-server-tools/blob/master/mysql/SQL-Performance.md
