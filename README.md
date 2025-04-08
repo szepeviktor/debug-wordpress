@@ -24,6 +24,9 @@ Open developer tools in your browser.
 
 View page source in your browser.
 
+> [!IMPORTANT]
+> Check Web Console for JavaScript errors.
+
 ### Tools
 
 - https://validator.w3.org/
