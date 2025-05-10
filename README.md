@@ -10,6 +10,11 @@ Dump POST request body to the error log.
 Copy [this snippet][debug-post-requests] to `wp-config.php`.  
 Follow error log: `tail -f error_log`
 
+### Tools
+
+- For AJAX requests: https://github.com/szepeviktor/qm-opcache-ajax
+- For REST requests: https://querymonitor.com/wordpress-debugging/rest-api-requests/
+
 ## HTTP response headers
 
 Open developer tools in your browser.
