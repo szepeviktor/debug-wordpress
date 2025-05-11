@@ -12,7 +12,7 @@ Follow error log: `tail -f error_log`
 
 ### Tools
 
-- For AJAX requests: https://github.com/szepeviktor/qm-opcache-ajax
+- For AJAX requests: https://github.com/szepeviktor/qm-ajax
 - For REST requests: https://querymonitor.com/wordpress-debugging/rest-api-requests/
 
 ## HTTP response headers
