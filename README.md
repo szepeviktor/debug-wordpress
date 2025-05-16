@@ -43,6 +43,10 @@ Dump triggered hooks (actions and filters) to a file.
 Copy [this MU plugin][debug-hooks] to `wp-content/mu-plugins/`.  
 Follow the log: `tail -f wp-content/debug-hooks.log`
 
+### Tools
+
+- Plugin Identifier Search https://plugintests.com/search-ids
+
 ## PHP errors
 
 Follow PHP error log: `tail -f error_log`
