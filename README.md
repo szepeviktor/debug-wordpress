@@ -43,6 +43,15 @@ Dump triggered hooks (actions and filters) to a file.
 Copy [this MU plugin][debug-hooks] to `wp-content/mu-plugins/`.  
 Follow the log: `tail -f wp-content/debug-hooks.log`
 
+Alternatively enable debugging in wp-config.
+```php
+define('WP_DEBUG', true);
+define('WP_DEBUG_LOG', true);
+define('WP_DEBUG_DISPLAY', false);
+ini_set('display_errors', '0');
+```
+Follow the log: `tail -f wp-content/debug.log`
+
 ### Tools
 
 - Plugin Identifier Search https://plugintests.com/search-ids
