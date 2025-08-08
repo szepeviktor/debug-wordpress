@@ -75,6 +75,10 @@ Cron can be web-based and CLI-based.
 
 Log events and failures.
 
+## Background queue jobs
+
+Check Action Scheduler logs.
+
 ## Database queries
 
 Log queries before they are executed, see `EXPLAIN` statement.  
