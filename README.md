@@ -94,7 +94,7 @@ Log failed queries.
 
 ## Emails
 
-Log sent emails and sending failures.
+Log [sent emails](https://github.com/johnbillion/wp_mail) and sending failures.
 
 ## Support my work
 
