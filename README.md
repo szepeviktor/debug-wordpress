@@ -6,9 +6,15 @@ Tools and techniques for debugging WordPress.
 
 ## Incoming HTTP requests
 
+Dump HTTP request headers to `debug-request-headers.log`.  
+Install [this plugin][debug-request-headers].  
+Follow error log: `tail -f wp-content/debug-request-headers.log`
+
 Dump POST request body to the error log.  
 Copy [this snippet][debug-post-requests] to `wp-config.php`.  
 Follow error log: `tail -f error_log`
+
+Use `rewrite-rules-inspector` plugin for permalink debugging.
 
 ### Tools
 
@@ -114,6 +120,7 @@ Thank you!
 - https://themecheck.info/
 
 [debug-post-requests]: https://github.com/szepeviktor/wordpress-website-lifecycle/blob/master/debug/debug-post-requests.php
+[debug-request-headers]: https://github.com/szepeviktor/wordpress-website-lifecycle/blob/master/debug/debug-request-headers.php
 [debug-hooks]: https://github.com/szepeviktor/wordpress-website-lifecycle/blob/master/debug/debug-hooks.php
 [debug-queries]: https://github.com/szepeviktor/wordpress-website-lifecycle/blob/master/debug/debug-queries.php
 [sponsor-button]: https://github.com/szepeviktor/.github/raw/master/.github/assets/github-like-sponsor-button.svg
