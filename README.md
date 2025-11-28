@@ -14,10 +14,9 @@ Dump POST request body to the error log.
 Copy [this snippet][debug-post-requests] to `wp-config.php`.  
 Follow error log: `tail -f error_log`
 
-Use `rewrite-rules-inspector` plugin for permalink debugging.
-
 ### Tools
 
+- For permalinks: `rewrite-rules-inspector` plugin
 - For AJAX requests: https://github.com/szepeviktor/qm-ajax
 - For REST requests: https://querymonitor.com/wordpress-debugging/rest-api-requests/
 
