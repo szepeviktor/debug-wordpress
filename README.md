@@ -113,6 +113,7 @@ Thank you!
 
 - `query-monitor` plugin
 - [Test Mode](https://github.com/szepeviktor/test-mode) plugin
+- Troubleshooting Mode of `health-check` plugin
 - `airplane-mode` plugin
 - `whats-running` plugin
 - `frontend-debugger` plugin
