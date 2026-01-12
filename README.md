@@ -57,6 +57,12 @@ ini_set('display_errors', '0');
 ```
 Follow the log: `tail -f wp-content/debug.log`
 
+### What is happening?
+
+1. Hooks: log in `all` action.
+2. SQL queries: log at the end of `wpdb::_do_query()` in wp-includes/class-wpdb.php
+3. Object cache: log in `WP_Object_Cache::get()` and `WP_Object_Cache::set()` in wp-content/object-cache.php
+
 ### Tools
 
 - Plugin Identifier Search https://plugintests.com/search-ids
